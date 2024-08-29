@@ -45,7 +45,6 @@ import kotlinx.coroutines.withContext
  */
 
 private const val TAG = "FirstFragment"
-
 @AndroidEntryPoint
 class DashboardFragment : Fragment(), MenuProvider, TaskItemClickListener {
 
