@@ -1,0 +1,16 @@
+package com.learn.to_do_netomi.domain.usecase
+
+import com.learn.to_do_netomi.base.domain.SuspendableBaseUseCase
+import com.learn.to_do_netomi.domain.model.TaskDomainModel
+import com.learn.to_do_netomi.domain.repository.TaskRepository
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.withContext
+import javax.inject.Inject
+
+class AddTaskUseCase @Inject constructor(private val taskRepository: TaskRepository) :SuspendableBaseUseCase<TaskDomainModel,Unit>{
+    override suspend operator fun invoke(data:TaskDomainModel) {
+        withContext(Dispatchers.IO) {
+            taskRepository.addTask(data)
+        }
+    }
+}

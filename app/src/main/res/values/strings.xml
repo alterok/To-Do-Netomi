@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">To-Do By Krishan</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="dashboard_fragment_label">To-Do by Krishan Sharma</string>
+    <string name="detail_fragment_label">Add Task</string>
+
+    <string name="add_task">Add Task</string>
+    <string name="no_tasks">No Tasks</string>
+    <string name="enter_time">Enter Time</string>
+    <string name="Time">Time</string>
+    <string name="cancel">Cancel</string>
+    <string name="add">Add</string>
+    <string name="task_description">Description (Optional)</string>
+    <string name="cannot_be_empty">Cannot be empty!</string>
+    <string name="invalid_input">Invalid input!</string>
+    <string name="task_title">Task Title</string>
+    <string name="select_future_time">Select a future time.</string>
+    <string name="action_filter">Filter</string>
+    <string name="hint_hh_mm">hh:mm</string>
+    <string name="warning">Warning</string>
+    <string name="ok">Ok</string>
+
+    <string-array name="time_am_pm">
+        <item>AM</item>
+        <item>PM</item>
+    </string-array>
+
+</resources>

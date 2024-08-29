@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="Theme.ToDoByKrishan" parent="Base.Theme.ToDoByKrishan">
+        <item name="android:navigationBarColor">?colorSurface</item>
+        <item name="android:statusBarColor">?colorSecondaryContainer</item>
+        <item name="android:windowLightStatusBar">?attr/isLightTheme</item>
+    </style>
+</resources>
